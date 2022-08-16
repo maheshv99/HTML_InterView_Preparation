@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+}
+.p{
+    width: 100px;
+    height: 20px;
+    background-color: rebeccapurple;
+}
+.m{
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+}
+.b{
+    width: 100px;
+    height: 20px;
+    background-color: red;
+}
+h3{
+    color: red;
+}
+    </style>
+    
+</head>
+<body>
+     <h3>1.Difference between flex row and column</h3>
+    <br>
+    ans: <br>
+    Flex row:
+    <br>
+    <ul>
+        <li>In flex row the items are in row direction.</li>
+        <li>The align items is based on Main axis(x-axis)</li>
+        </ul>
+        <br>
+        Flex column:
+        <br>
+        <ul>
+            <li> In flex row the items are in column direction.</li>
+            <li>The align items is based on Main axis{Y-axis}</li>
+        </ul>
+        <hr>
+     <h3>2.Explain inline , internal and external stylesheet?</h3>
+    <br>
+    <br>
+    ans: <br>
+    inline
+    <ul>
+        <li>Inline CSS in which the CSS property is kept in the body section attached with
+            element on which we have to apply styling.</li>
+            <br>
+        <li>Ex:</li>
+        {(p) style="color"="RED"}A red paragraph (P)}
+    </ul>
+    Internal:
+    <br>
+    <ul>
+        <li>An internal CSS is defined in the <head> section of an HTML page,
+            within a {style} element</li>
+            <br>
+        <li>Example: <p>{style}</p>
+            background color=
+            <br>
+            color=
+            <p>{style}</p>
+            </li>
+    </ul>
+    External:
+    <br>
+    <ul>
+        <li> In External CSS we actually write style code in some other file named .CSS and
+            after that we attach that file using the link tag in the head. See below how we have attached
+            the CSS file.</li>
+            <br>
+         <li>Example:
+
+            <p> link{rel="STYLESHEET" href="STYLE.CSS"}</p>
+
+           </li>   
+    </ul>
+    <hr>
+    <h3> 3.Justify-content allows you to do what? </h3>
+   
+    <br>
+    ans: <br>
+    
+    justify content allows the flex direction it contains
+    <ul>       
+        <li>align items</li>
+        <li>align content</li>
+     </ul>
+        <p> EX:Align items</p>
+        <ul>
+        <li>flex start</li>
+        <li>flex end</li>
+        <li>center</li>
+        </ul>
+        <p>EX:Align content</p>
+        <ul>
+            <li>space around</li>
+            <li>space between</li>
+            <li>space around</li>
+        </ul>
+        <hr>
+        <h3> 4.Difference between absolute and relative positioning? </h3>
+        <br>
+        ans: <br>
+        Absolute:
+        <ul>
+            <li>An element with position: fixed; is positioned relative to the viewport, which means
+                it always stays in the same place even if the page is scrolled
+                </li>
+        </ul>
+        relative:
+        <ul>
+            <li>An element with position: relative; is positioned relative to its normal position.
+                Setting the top, right, bottom, and left properties</li>
+        </ul>
+        <hr>
+         <h3>5.What is grid-template-columns used for? </h3>
+        <br>
+        <br>
+        ans: <br>
+        For columns: <ul>
+            <li>grid column start: 1 / 3</li>
+            <li>grid column end: 2 / 3</li>
+        </ul>
+        <br>
+        For Row:
+        <ul>
+            <li>grid row start: 1 / 3</li>
+            <li>grid row end: 2 / 3</li>
+        </ul>
+        
+         
+        <hr>
+       <h3> 6.What is the z-index in CSS? </h3>
+        <br>
+        ans: <br>
+        <ul>
+            <li>The z-index property specifies the stack order of an element.</li>
+            <li>An element with greater stack order is always in front of an element with a lower stack order.</li>
+            <li>z-index property will not work if the position is static.</li>
+         
+        </ul>
+        <hr>
+        <h3> 7.What is the difference between padding and margin? </h3>
+        <br>
+        ans: <br>
+        Padding:
+        <ul>
+            <li>It may be defined as the space between content area and its border called padding.</li>
+            <li>Padding is located inside the border of an element.</li>
+        </ul>
+        Margin:
+        <ul>
+            <li>It may be defined as the space between border and near by elements.</li>
+            <li>In CSS, a margin is the space around an elements border.</li>
+        </ul>
+        <hr>
+         <h3>8.What is box sizing? </h3>
+        <br>
+        ans: <br>
+      
+        <ul>
+            <li> The CSS box-sizing property allows us to include the padding and border in an element's total width and height.</li>
+            <li>width + padding + border = actual width of an element</li>
+            <li>height + padding + border = actual height of an element</li>
+        </ul>
+        <hr>
+        <h3> 9.What is animation delay? </h3>
+        <br>
+        ans: <br>
+         <ul>
+        <li>It is the property to specifies the delay for to start of animation</li>
+        <li>it can specifies the values of seconds or milliseconds</li>
+         </ul>
+         <hr>
+        <h3> 10.Which property you will use to merge cells vertically  and horizontally in grid? </h3>
+        <br>
+        ans: <br>
+        vertically
+        <ul>
+        <li>  grid column start: </li>
+        <li>  grid column end:</li>
+         </ul>
+
+         horizontally
+        <ul>
+        <li> grid row start:</li>
+        <li> grid row end:</li>
+        </ul>     
+       <hr>
+        <h3> 11.Explain CSS box model? </h3> <br>
+         ans: <br>
+    <center style="width: 250px;height: 250px; background-color: rgb(0, 255, 8); border: 1px solid;">
+  
+    <p class="m">Margin</p> 
+    <p class="b">Border</p>
+    <p class="p">Padding</p>
+    <p class="c">content area</p>
+    <p class="p">Padding</p>
+    <p class="b ">Border</p>
+    <p class="m">Margin</p> 
+</center>
+<br>
+<hr>
+   <h3> 12.what is the difference between display none and visibility hidden? </h3>
+    <br>
+    <br>
+    ans: <br>
+    Display none:
+    <ul>
+        <li> In this the element will be completely removed.</li>
+        <li>it cannot occupies the any space in web document.</li>
+        <li>Ex:display; none/inline/block</li>
+     </ul>
+     Visibility hidden:
+     <ul>
+        <li> The element is hidden in nature; it is not visible but it will take the space.</li>
+        <li>It can occuies the space in web document.</li>
+        <li>Ex:visibility; hidden/visible/intial</li>
+
+     </ul>
+
+   
+    
+</body>
+</html>
