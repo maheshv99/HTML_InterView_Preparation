@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <hr>
+    <h3>What are CSS combinators </h3>
+    <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;there are 4 combinators</p>
+    <ul>
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general (all) sibling selector (~)</li>
+    </ul>
+    <h4>descendant selector (space)</h4>
+     <div class="first">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+        <div>this is a div paragraph</div>
+        <section><p>paragraph 4 inside the section tag</p></section>
+     </div>
+
+     <h4>child selector (>)</h4>
+     <div class="second">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+        <div>this is a div paragraph</div>
+        <section><p>paragraph 4 inside the section tag</p></section>
+     </div>
+
+     <h4>adjacent sibling selector (+)</h4>
+     <div class="third">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+     </div>
+     <p>paragraph 3</p>
+     <p>paragraph 4</p>
+
+     <h4>general (all) sibling selector (~)</h4>
+     <div class="fourth">
+        <p>paragraph 1 (inside the div tag)</p>
+     </div>
+     <section><p>paragraph 2 (inside the section tag)</p></section>
+     <p>paragraph 3</p>
+     <p>paragraph 4</p>
+     <br>
+    <hr>
+    <h3>What are pseudo selectors in CSS</h3>
+    <pre>syntax:
+        <pre>selector : pseudo_className 
+            {
+                //code
+            }
+        </pre>
+    </pre>
+    <div class="mm1">
+        <p>Hover (class name)</p>
+    </div>
+    
+    <div>
+        <p class="hov">this is a text , when hover on the text background color is changed</p>
+    </div>
+    <div class="mm1">
+        <p>before (class name)</p>
+    </div>
+    <div>
+        <p class="bef">this is a text ,before the text one color box is dispalying with text</p>
+    </div>
+
+    <div class="mm1">
+        <p>after (class name)</p>
+    </div>
+    <div>
+        <p class="aft">this is a text ,after the text one color box is dispalying with tex</p>
+    </div>
+</body>
+</html>

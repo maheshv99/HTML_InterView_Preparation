@@ -1,0 +1,41 @@
+h3{
+    color: red;
+}
+h4{
+    text-decoration: underline;
+    color:darkgoldenrod;
+    font-size: large;
+}
+.first p{
+    background-color: black;
+    color: white;
+}
+.second > p{
+    background-color: blue;
+    color: red;
+}
+.third + p{
+    background-color: darkorange;
+    color: white;
+}
+.fourth ~ p{
+    background-color: cyan;
+    color: red;
+}
+.hov:hover{
+    background-color: black;
+    color: white;
+}
+.bef::before{
+    content: 'hello';
+    /* display: inline-block; */
+    background-color: red;
+}
+.aft::after{
+    content: 'hello';
+    /* display: inline-block; */
+    background-color: red;
+}
+.mm1{
+    color: brown;
+}
